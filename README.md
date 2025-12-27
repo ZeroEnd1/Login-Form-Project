@@ -147,10 +147,6 @@ login-form-project/
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-**Яремчук**
-- GitHub: [@your-username](https://github.com/your-username)
-
 ## 🙏 Acknowledgments
 - FontAwesome for the amazing icons
 - Google Fonts for beautiful typography

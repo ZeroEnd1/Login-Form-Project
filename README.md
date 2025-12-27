@@ -135,7 +135,7 @@ login-form-project/
 - Connect to backend API for user management
 
 ## 📸 Screenshots
-<img width="1920" height="975" alt="{42B96EAA-98D3-43D6-B515-B786BF828CD0}" src="https://github.com/user-attachments/assets/8f1a7f0c-78f8-4f54-8e98-9d529979601d" />
+<img width="1468" height="533" alt="{15C59B8B-485D-4384-8155-416EF9362BB3}" src="https://github.com/user-attachments/assets/277c6d17-db11-40b9-a559-267c0a91e42c" />
 
 
 ## 🤝 Contributing

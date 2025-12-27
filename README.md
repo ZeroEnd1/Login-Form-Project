@@ -156,8 +156,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Google Fonts for beautiful typography
 - Inspiration from modern web design trends
 
-## 📞 Support
-If you have any questions or issues, please open an issue on GitHub or contact the author.
-
 ---
 ⭐ **Star this repo** if you found it helpful!

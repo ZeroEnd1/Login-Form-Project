@@ -1,0 +1,124 @@
+// Вибір теми
+@import 'dark-theme'; // або 'dark-theme' в залежності від теми
+
+// Глобальні стилі
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: $background-color; /* Використання змінної */
+    color: $text-color; /* Використання змінної */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    width: 50%;
+    padding: 40px;
+}
+
+.form-container .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container .logo i {
+    margin-right: 10px;
+    color: $logo-color; /* Використання змінної */
+}
+
+.form-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: $text-color; /* Використання змінної */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $border-color; /* Використання змінної */
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: $error-border-color; /* Використання змінної */
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+button.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: $button-background-color; /* Використання змінної */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+button.google-login {
+    width: 100%;
+    padding: 15px;
+    background-color: $google-button-background-color; /* Використання змінної */
+    color: $google-button-text-color; /* Використання змінної */
+    border: 1px solid $border-color; /* Використання змінної */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button.google-login img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 15px;
+}

@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* Темно-сірий фон */
+/* Білий текст */
+/* Колір рамок навколо інпутів */
+/* Колір рамок для невалідних інпутів */
+/* Фіолетовий колір кнопки */
+/* Темний фон кнопки Google */
+/* Білий колір тексту кнопки Google */
+/* Білий колір логотипу */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #222222; /* Використання змінної */
+  color: #FEFEFE; /* Використання змінної */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container {
+  width: 50%;
+  padding: 40px;
+}
+
+.form-container .logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-container .logo i {
+  margin-right: 10px;
+  color: #FEFEFE; /* Використання змінної */
+}
+
+.form-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #FEFEFE; /* Використання змінної */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(215, 215, 215, 0.1019607843); /* Використання змінної */
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: #E9B0B2; /* Використання змінної */
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+button.login-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #652EBE; /* Використання змінної */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+button.google-login {
+  width: 100%;
+  padding: 15px;
+  background-color: #2B2B2B; /* Використання змінної */
+  color: white; /* Використання змінної */
+  border: 1px solid rgba(215, 215, 215, 0.1019607843); /* Використання змінної */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button.google-login img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
